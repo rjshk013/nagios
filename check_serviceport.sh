@@ -1,4 +1,20 @@
 #!/bin/bash
+
+###################################################################################################
+
+            # check_serviceport.sh script #
+# Nagios Plugin to check Specified Port is running on Local System
+# You can Specify any name in  ServiceName srgument section ,it is only used for  display output :)
+# Specify Port No which you need to check in argument section "PortNo".
+####################################################################################################
+
+# Author : RAJESH.K
+
+####################################################################################################
+
+# Nagios Exit Codes
+
+#!/bin/bash
 SERVICE_OK=0
 SERVICE_WARNING=1
 SERVICE_CRITICAL=2
